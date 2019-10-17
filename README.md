@@ -2,9 +2,9 @@
 	Dracula for TheLounge
 </h1>
 
-<h3 align="center">
-	A dark theme for thelounge based on [dracula/dracula-theme](https://github.com/dracula/dracula-theme) with a thing for purple.
-</h3>
+<h4 align="center">
+	A dark theme for thelounge based on <a href="https://github.com/dracula/dracula-theme">dracula/dracula-theme</a> with a thing for purple.
+</h4>
 
 
 # Issues
