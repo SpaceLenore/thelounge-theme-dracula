@@ -1,0 +1,29 @@
+{
+  "name": "thelounge-theme-dracula",
+  "description": "Dracula theme for thelounge",
+  "version": "1.0.0",
+  "keywords": [
+    "thelounge",
+    "thelounge-theme"
+  ],
+  "homepage": "https://github.com/SpaceLenore/thelounge-theme-dracula",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpaceLenore/thelounge-theme-dracula.git"
+  },
+  "license": "MIT",
+  "main": "package.json",
+  "thelounge": {
+    "name": "Dracula",
+    "type": "theme",
+    "css": "dracula_theme.css"
+  },
+  "devDependencies": {
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0"
+  },
+  "scripts": {
+    "test": "stylelint dracula_theme.css",
+    "format": "stylelint --fix dracula_theme.css"
+  }
+}
