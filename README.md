@@ -6,6 +6,9 @@
 	A dark theme for thelounge based on <a href="https://github.com/dracula/dracula-theme">dracula/dracula-theme</a> with a thing for purple.
 </h4>
 
+# Install
+To install in thelounge run the following command: `thelounge install
+thelounge-theme-dracula`
 
 # Issues
 This theme is not perfect, it is still a work in progress. Feel free to submit issues [here](https://github.com/SpaceLenore/thelounge-theme-dracula/issues).
