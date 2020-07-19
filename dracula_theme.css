@@ -66,6 +66,11 @@ html {
     height: 35px;
 }
 
+.jump-to-input .input {
+    background-color: var(--highlight-bg-color);
+    border: 1px solid var(--body-color-muted);
+}
+
 i.hostmask {
     font-size: 90%;
     font-style: normal;
@@ -83,6 +88,11 @@ kbd {
     text-shadow: none;
 }
 
+.channel-list-item.active,
+#footer button.active {
+    background-color: var(--body-color-muted);
+}
+
 #chat .count::before,
 #form #submit,
 #form #upload,
@@ -90,6 +100,15 @@ kbd {
 #viewport .lt,
 #viewport .rt {
     color: var(--body-color);
+}
+
+#chat .msg[data-type="join"] .from::before {
+    color: var(--unread-marker-color);
+}
+
+#chat .msg[data-type="part"] .from:before,
+#chat .msg[data-type="quit"] .from:before {
+    color: var(--background-error);
 }
 
 #context-menu,
@@ -119,7 +138,7 @@ body {
 
 #form,
 #viewport .lt::after,
-#windows #chat .header,
+#chat .header,
 #chat .content,
 #chat .userlist {
     border-color: var(--background-light-color);
@@ -135,7 +154,7 @@ body {
     color: var(--highlight-color);
 }
 
-#chat .msg.message.self .content {
+#chat .msg.self .content {
     color: var(--body-color);
 }
 
@@ -161,6 +180,11 @@ body {
 #form,
 #chat .userlist .count {
     background-color: inherit;
+}
+
+.input {
+    background-color: var(--background-light-color);
+    color:var(--body-color);
 }
 
 /* Hide close button on channels, it is not used that frequently */
@@ -254,7 +278,7 @@ body {
     color: #bd93f9;
 }
 
-#chat .msg.motd .text,
+#chat .msg[data-type="motd"] .text,
 #chat .toggle-content {
     background-color: var(--background-light-color);
 }
