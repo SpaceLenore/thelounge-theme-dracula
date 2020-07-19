@@ -2,8 +2,8 @@
 	Dracula for TheLounge
 </h1>
 <div align="center">
-![npm](https://img.shields.io/npm/v/thelounge-theme-dracula?color=green)
-![npm](https://img.shields.io/npm/dt/thelounge-theme-dracula)
+<img alt="npm" src="https://img.shields.io/npm/v/thelounge-theme-dracula?color=green">
+<img alt="npm" src="https://img.shields.io/npm/dt/thelounge-theme-dracula">
 </div>
 <h4 align="center">
 	A dark theme for thelounge based on <a href="https://github.com/dracula/dracula-theme">dracula/dracula-theme</a>
