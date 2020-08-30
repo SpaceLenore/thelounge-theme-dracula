@@ -3,7 +3,7 @@
  *
  * Based on solarized css file
  * License: MIT
- * Repo:
+ * Repo: https://github.com/SpaceLenore/thelounge-theme-dracula/
  */
 
 /* Samsung Internet and Microsoft Edge (yes, both of them use -webkit- prefix) */
@@ -102,12 +102,14 @@ kbd {
     color: var(--body-color);
 }
 
+#chat .msg[data-type="topic"] .from::before,
+#chat .msg[data-type="mode_channel"] .from::before,
 #chat .msg[data-type="join"] .from::before {
     color: var(--unread-marker-color);
 }
 
-#chat .msg[data-type="part"] .from:before,
-#chat .msg[data-type="quit"] .from:before {
+#chat .msg[data-type="part"] .from::before,
+#chat .msg[data-type="quit"] .from::before {
     color: var(--background-error);
 }
 
@@ -184,7 +186,7 @@ body {
 
 .input {
     background-color: var(--background-light-color);
-    color:var(--body-color);
+    color: var(--body-color);
 }
 
 /* Hide close button on channels, it is not used that frequently */
@@ -278,6 +280,7 @@ body {
     color: #bd93f9;
 }
 
+#chat .msg[data-type="monospace_block"] .text,
 #chat .msg[data-type="motd"] .text,
 #chat .toggle-content {
     background-color: var(--background-light-color);
