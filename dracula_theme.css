@@ -66,6 +66,11 @@ html {
     height: 35px;
 }
 
+.input {
+    background-color: var(--background-light-color) !important;
+    color: var(--body-color);
+}
+
 .jump-to-input .input {
     background-color: var(--highlight-bg-color);
     border: 1px solid var(--body-color-muted);
@@ -122,6 +127,7 @@ kbd {
 
 .context-menu-item,
 .textcomplete-item {
+    color: var(--body-color);
     transition: none;
 }
 
@@ -144,11 +150,6 @@ body {
 #chat .content,
 #chat .userlist {
     border-color: var(--background-light-color);
-}
-
-.context-menu-item,
-.textcomplete-item a {
-    color: var(--body-color);
 }
 
 #chat .action .content,
@@ -182,11 +183,6 @@ body {
 #form,
 #chat .userlist .count {
     background-color: inherit;
-}
-
-.input {
-    background-color: var(--background-light-color);
-    color: var(--body-color);
 }
 
 /* Hide close button on channels, it is not used that frequently */
