@@ -13,5 +13,8 @@
 To install in thelounge run the following command: `thelounge install
 thelounge-theme-dracula`
 
+# Screenshot
+![The Lounge with dracula theme](screenshot.png)
+
 # Issues
 This theme is not perfect, it is still a work in progress. Feel free to submit issues [here](https://github.com/SpaceLenore/thelounge-theme-dracula/issues).
